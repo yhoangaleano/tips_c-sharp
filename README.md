@@ -2,7 +2,7 @@
 
 Contraseña Fuerte C#
 
- 
+ ```c#
 
             public override bool IsValid(object value)
             {
@@ -41,6 +41,7 @@ Contraseña Fuerte C#
 
             return valueReturn;
         }
+```
 
 Valicación de Correo Electrónico
 
