@@ -2,14 +2,16 @@
 
 Contraseña Fuerte C#
 
- public override bool IsValid(object value)
-        {
+ 
+
+            public override bool IsValid(object value)
+            {
             var size = 0;
             var upper = false;
             var number = false;
             var symbol = false;
             var valueReturn = false;
-
+            
             var charArray = value.ToString().ToCharArray();
 
             foreach (char item in charArray)
